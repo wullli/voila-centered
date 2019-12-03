@@ -122,21 +122,6 @@ var voila_process = function(cell_index, cell_count) {
 <div id="rendered_cells" style="display: none">
 {%- endblock body_header -%}
 
-  <header>
-    <div class="navbar-fixed">
-      <nav class="top-nav">
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo-container">
-            <object class="brand-logo" type="image/svg+xml" data="{{ resources.base_url }}voila/static/voila_logo.svg"></object>
-          </a>
-          <ul class="right">
-            <li><a href="#"><i class="material-icons" id="kernel-status-icon">radio_button_unchecked</i></a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-
   <main>
     <div class="container">
       <div class="row">
