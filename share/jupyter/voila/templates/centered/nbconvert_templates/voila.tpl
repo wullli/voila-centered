@@ -38,9 +38,9 @@ a.anchor-link {
 {%- block body -%}
 {%- block body_header -%}
 {% if resources.theme == 'dark' %}
-<body style="{width:50vw; margin-left:auto; margin-right:auto;}" class="jp-Notebook theme-dark" data-base-url="{{resources.base_url}}voila/">
+<body style="width:50vw; margin-left:auto; margin-right:auto;" class="jp-Notebook theme-dark" data-base-url="{{resources.base_url}}voila/">
 {% else %}
-<body style="{width:50vw; margin-left:auto; margin-right:auto;}" class="jp-Notebook theme-light" data-base-url="{{resources.base_url}}voila/">
+<body style="width:50vw; margin-left:auto; margin-right:auto;" class="jp-Notebook theme-light" data-base-url="{{resources.base_url}}voila/">
 {% endif %}
 
 {{ spinner.html() }}
