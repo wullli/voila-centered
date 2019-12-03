@@ -83,15 +83,14 @@ for (dirpath, dirnames, filenames) in os.walk('share/jupyter/voila/templates/'):
 
 
 setup(
-    name='voila-material',
+    name='voila-centered',
     version="0.2.5",
-    description="Material design template for voila",
+    description="Default fork design template for voila",
     data_files=data_files,
     include_package_data=True,
-    author='Martin Renou',
-    author_email='martin.renou@gmail.com',
+    author='wullli',
     install_requires=['voila>=0.1.14'],
-    url='https://github.com/martinRenou/voila-material',
+    url='https://github.com/wullli/voila-centered',
     keywords=[
         'ipython',
         'jupyter',

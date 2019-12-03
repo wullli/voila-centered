@@ -1,4 +1,4 @@
-name: voila-material
+name: voila-centered
 channels:
   - conda-forge
 dependencies:
