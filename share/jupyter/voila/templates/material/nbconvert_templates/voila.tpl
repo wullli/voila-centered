@@ -182,17 +182,6 @@ var voila_process = function(cell_index, cell_count) {
     requirejs(['static/voila'], function(voila) {
       (async function() {
         var kernel = await voila.connectKernel();
-
-        kernel.statusChanged.connect(() => {
-          // console.log(kernel.status);
-          var el = document.getElementById("kernel-status-icon");
-
-          if (kernel.status == 'busy') {
-            el.innerHTML = 'radio_button_checked';
-          } else {
-            el.innerHTML = 'radio_button_unchecked';
-          }
-        });
       })();
     });
   </script>
