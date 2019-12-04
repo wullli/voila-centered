@@ -1,3 +1,4 @@
 .ipynb_checkpoints/*
 voila_centered.egg-info/*
 dist/*
+.idea
